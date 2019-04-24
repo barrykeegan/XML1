@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<Courses>
+  <Course>
+    <Code>klasjdf</Code>
+    <Title>klj;ahf</Title>
+    <Type>FullTime</Type>
+    <Credits>55</Credits>
+    <ValidationDate>2002</ValidationDate>
+  </Course>
+  <Course>
+    <Code>klasjdf</Code>
+    <Title>klj;ahf</Title>
+    <Type>FullTime</Type>
+    <Credits>55</Credits>
+    <ValidationDate>2002</ValidationDate>
+  </Course>
+  <Course>
+    <Code>sfdgfdgf</Code>
+    <Title>asfdsafsaf</Title>
+    <Type>FullTime</Type>
+    <Credits>44</Credits>
+    <ValidationDate>2012</ValidationDate>
+  </Course>
+</Courses>

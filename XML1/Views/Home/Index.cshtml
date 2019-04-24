@@ -1,0 +1,39 @@
+﻿@model XML1.Models.Course
+
+
+@{
+    ViewBag.Title = "College Courses";
+}
+
+<h2>Course Review</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.ValidationSummary(false, "", new { style = "color:red;"})
+    </p>
+    <p>
+        @Html.LabelFor(c => c.CourseCode)<br />
+        @Html.TextBoxFor(c => c.CourseCode)
+    </p>
+    <p>
+        @Html.LabelFor(c => c.CourseTitle)<br />
+        @Html.TextBoxFor(c => c.CourseTitle)
+    </p>
+    <p>
+        @Html.LabelFor(c => c.CourseType)<br />
+        @Html.EnumDropDownListFor(c => c.CourseType)
+    </p>
+    <p>
+        @Html.LabelFor(c => c.CourseCredits)<br />
+        @Html.TextBoxFor(c => c.CourseCredits, new { type = "number" })
+    </p>
+    <p>
+        @Html.LabelFor(c => c.CourseValidationDate)<br />
+        @Html.TextBoxFor(c => c.CourseValidationDate, new { type = "number" })
+    </p>
+
+
+
+    <input type="submit" value="Submit" />
+}
